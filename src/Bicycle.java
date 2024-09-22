@@ -1,2 +1,6 @@
-public class Bicycle extends WheelTransport {
+public class Bicycle extends Vehicle {
+
+    public Bicycle(String modelName, int wheelsCount) {
+        super(modelName, wheelsCount);
+    }
 }
